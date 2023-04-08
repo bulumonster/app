@@ -2,18 +2,19 @@
 <html>
 <head>
 	<title>Get Short Link Shopee</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<h1>Get Short Link Shopee</h1>
-	<form>
-		<label for="url">Shopee Link:</label>
-		<input type="text" id="url" name="url" placeholder="Enter Shopee link here...">
-		<button type="button" onclick="getShortLink()">Get Short Link</button>
-	</form>
-	<div id="shortLink"></div>
+	<div class="container">
+		<h1>Get Short Link Shopee</h1>
+		<form id="form">
+			<label for="url">Enter Shopee Link:</label>
+			<input type="text" id="url" name="url" placeholder="https://shopee.vn/...">
+			<button type="submit">Get Short Link</button>
+		</form>
+		<div id="result"></div>
+	</div>
 	<script src="config.js"></script>
 	<script src="script.js"></script>
 </body>
 </html>
-
